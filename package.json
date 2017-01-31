@@ -1,0 +1,15 @@
+{
+  "name": "docker-events",
+  "version": "1.0.0",
+  "description": "Alert on container events (die)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gmayer@arkho.tech",
+  "license": "ISC",
+  "dependencies": {
+    "docker-event-stream": "^1.1.0",
+    "slack-node": "^0.1.8"
+  }
+}
